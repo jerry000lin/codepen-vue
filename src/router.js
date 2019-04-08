@@ -24,6 +24,12 @@ export default new Router({
         import(/* webpackChunkName: "about" */ "./views/TextTest")
     },
     {
+      path: "/card",
+      name: "card",
+      component: () =>
+        import(/* webpackChunkName: "about" */ "./views/CardTest")
+    },
+    {
       path: "/test",
       name: "test",
       component: () => import("./views/Test")
