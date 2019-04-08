@@ -26,8 +26,7 @@ export default {
   flex-wrap: wrap;
   font-size: 48px;
   > div {
-    flex: 1;
-    width: 400px;
+    width: 100%;
   }
 }
 </style>

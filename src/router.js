@@ -22,6 +22,11 @@ export default new Router({
       name: "text",
       component: () =>
         import(/* webpackChunkName: "about" */ "./views/TextTest")
+    },
+    {
+      path: "/test",
+      name: "test",
+      component: () => import("./views/Test")
     }
   ]
 });

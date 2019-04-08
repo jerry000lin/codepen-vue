@@ -38,22 +38,17 @@ export default {
 };
 </script>
 <style lang="less">
-@fuschia: #ff0081;
-@button-bg: @fuschia;
-@button-text-color: #fff;
-@baby-blue: #f8faff;
+@button-bg: #ff0081;
 
 .bubbly-button {
   font-family: "Helvetica", "Arial", sans-serif;
   display: inline-block;
   font-size: 1em;
   padding: 1em 2em;
-  margin-top: 100px;
-  margin-bottom: 60px;
   -webkit-appearance: none;
   appearance: none;
   background-color: @button-bg;
-  color: @button-text-color;
+  color: #fff;
   border-radius: 4px;
   border: none;
   cursor: pointer;
@@ -73,7 +68,6 @@ export default {
     width: 140%;
     height: 100%;
     left: -20%;
-    z-index: -1000;
     transition: all ease-in-out 0.5s;
     background-repeat: no-repeat;
   }

@@ -41,6 +41,7 @@ export default {
   flex-wrap: wrap;
   > div {
     width: 400px;
+    height: 200px;
   }
 }
 </style>
