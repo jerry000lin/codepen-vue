@@ -1,15 +1,12 @@
 <template>
-  <div class="home">
-    <awesome-button>aaasdf</awesome-button>
+  <div>
+    <router-link to="/button">button</router-link> |
+    <router-link to="/text">text</router-link> |
   </div>
 </template>
 
 <script>
-import awesomeButton from "@/components/awesomeButton.vue";
-export default {
-  name: "home",
-  components: {
-    awesomeButton
-  }
-};
+export default {};
 </script>
+
+<style scoped></style>
