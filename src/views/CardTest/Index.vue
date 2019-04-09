@@ -16,16 +16,24 @@
           </template>
         </flipping-card>
       </div>
+
+      <div class="turnning-card">
+        <turnning-card>
+          hello
+        </turnning-card>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-import FlippingCard from "./components/FlippingCard";
+import flippingCard from "./components/flippingCard";
+import turnningCard from "./components/turnningCard";
 export default {
   name: "cardTest",
   components: {
-    FlippingCard
+    flippingCard,
+    turnningCard
   }
 };
 </script>
@@ -37,6 +45,9 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .turnning-card {
+    color: #fff;
   }
 }
 </style>

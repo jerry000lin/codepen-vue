@@ -8,7 +8,7 @@
     </div>
   </div>
 </template>
-<style lang="less">
+<style lang="less" scoped>
 .card {
   position: relative;
   width: 30rem;
