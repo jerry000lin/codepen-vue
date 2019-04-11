@@ -11,6 +11,9 @@
       <div>
         <bubbly-button @click="handleClick">click me</bubbly-button>
       </div>
+      <div>
+        <fill-text-button>click me</fill-text-button>
+      </div>
     </div>
   </div>
 </template>
@@ -19,12 +22,14 @@
 import awesomeButton from "./components/awesomeButton.vue";
 import pinkButton from "./components/pinkButton.vue";
 import bubblyButton from "./components/bubblyButton.vue";
+import fillTextButton from "./components/fillTextButton.vue";
 export default {
   name: "buttonTest",
   components: {
     awesomeButton,
     pinkButton,
-    bubblyButton
+    bubblyButton,
+    fillTextButton
   },
   methods: {
     handleClick() {
