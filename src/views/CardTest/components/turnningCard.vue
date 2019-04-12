@@ -58,7 +58,7 @@ export default {
           this.shineAngle
         }deg, rgba(255, 255, 255, ${
           this.shineLight
-        }) 0%, rgba(255, 255, 255, 0) 80%)`
+        }) 0%, rgba(255, 255, 255, 0) 50%)`
       };
     }
   },

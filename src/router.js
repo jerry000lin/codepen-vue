@@ -30,6 +30,12 @@ export default new Router({
         import(/* webpackChunkName: "about" */ "./views/CardTest")
     },
     {
+      path: "/underline",
+      name: "underline",
+      component: () =>
+        import(/* webpackChunkName: "about" */ "./views/UnderlineTest")
+    },
+    {
       path: "/test",
       name: "test",
       component: () => import("./views/Test")
