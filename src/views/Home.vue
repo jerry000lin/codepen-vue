@@ -4,6 +4,7 @@
     <router-link to="/text">text</router-link> |
     <router-link to="/card">card</router-link> |
     <router-link to="/underline">underline</router-link> |
+    <router-link to="/loading">loading</router-link> |
   </div>
 </template>
 
